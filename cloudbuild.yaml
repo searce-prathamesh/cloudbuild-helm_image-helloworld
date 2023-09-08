@@ -6,6 +6,6 @@ steps:
   - 'CLOUDSDK_COMPUTE_ZONE=asia-south1-c'
   - 'CLOUDSDK_CONTAINER_CLUSTER=cloudbuild'
 
- # options:
- # logging: CLOUD_LOGGING_ONLY
+  options:
+  logging: CLOUD_LOGGING_ONLY
 
