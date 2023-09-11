@@ -1,6 +1,6 @@
 steps:
 - name: 'gcr.io/$_PROJECT_ID/helm'
-  args: ['upgrade', '--install', 'hello-world-app', './hello-world', '--namespace', 'helloworldns', '--create-namespace']
+  args: ['upgrade', '--install','./hello-world', '--namespace', 'helloworldns', '--create-namespace']
   
   env:
   - 'CLOUDSDK_COMPUTE_ZONE=asia-south1-c'
